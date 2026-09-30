@@ -1,1 +1,225 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Portfolio of Neev Kankariya</title>
+<style>
+body {
+background-color: lightblue;
+color: black;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+#navthingy {
+  background-color: #cccccc;
+padding: 15px;
+}
+
+#navthingy a {
+color: black;
+  margin: 10px;
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+th {
+  background-color: gray;
+color: white;
+}
+td {
+background-color: white;
+}
+
+
+  .highlight {
+    background-color: yellow;
+    color: red;
+  }
+
+#student-name-idk {
+  color: purple;
+}
+
+.badge {
+background-color: orange;
+    color: white;
+}
+
+#randombox44 {
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+  <header>
+      <h1>STUDENT PORTAL</h1>
+      
+      <nav id="navthingy">
+          <a href="#">Home</a>
+          <a href="#">Profile</a>
+          <a href="#">Courses</a>
+          <a href="#">Register</a>
+      </nav>    
+  </header>
+
+<main>
+
+  <section id="prof123">
+      <h2>Student Profile</h2>
+      <table>
+          <tr>
+              <th>Field</th>
+              <th>Value</th>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td><h3 id="student-name-idk">Neev Kankariya <span class="badge">Top Performer</span></h3></td>
+          </tr>
+          <tr>
+              <td>Student ID</td>
+              <td>24BCE1001</td>
+          </tr>
+          <tr>
+              <td>Program</td>
+              <td class="highlight">Computer Science</td>
+          </tr>
+          <tr>
+              <td>Year</td>
+              <td>1st Year</td>
+          </tr>
+          <tr>
+              <td>Email</td>
+              <td>neev09873@gmail.com</td>
+          </tr>
+       </table>
+  </section>    
+
+      <div id="skillys">
+          <h2>My Skills</h2>
+          
+          <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C++</li>
+              <li>JAVA</li>
+              <li>Python</li>
+          </ul>
+      </div>
+
+      <div id="tablez">
+          <h2>Weekly Schedule</h2>
+
+          <table>
+              <tr>
+                  <th>Day</th>
+                  <th>9:00Am</th>
+                  <th>11:00AM</th>
+                  <th>2:00PM</th>
+              </tr>
+              <tr>
+                  <td>Monday</td>
+                  <td>ICP</td>
+                  <td>Maths</td>
+                  <td>Lab</td>
+              </tr>
+              <tr>
+                  <td>Tuesday</td>
+                  <td>Web-Dev</td>
+                  <td>ICP</td>
+                  <td>Lab</td>
+              </tr>
+              <tr>
+                  <td>Wednesday</td>
+                  <td>ICP</td>
+                  <td>-------</td>
+                  <td>Lab</td>
+              </tr>
+              <tr>
+                  <td>Thursday</td>
+                  <td>Web-Dev</td>
+                  <td>Maths</td>
+                  <td>Lab</td>
+              </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>DSA</td>
+                  <td>CSS</td>
+                  <td>Workshop</td>
+              </tr>
+          </table>
+      </div>
+
+      <section id="form-stuff">
+          <form>
+              <h2>Course Registration</h2>
+
+              <h3>Student Details</h3>
+
+              <label for="name1">Name</label>
+              <input type="text" id="name1" placeholder="Name">
+              <br><br>
+              <label for="email99">Email</label>
+              <input type="email" id="email99" placeholder="Enter your Email">
+              <br><br>
+              <label for="id44">Student ID</label>
+              <input type="text" id="id44" placeholder="Enter your ID">
+              <br><br>
+              
+              <h3>Course Details</h3>
+
+              <label for="c-select">Choose a Course</label>
+                  <select id="c-select" name="course">
+                      <option>Select Course</option>
+                      <option>HTML & CSS</option>
+                      <option>JavaScript</option>
+                      <option>Python</option>
+                      <option>Data Structures</option>
+                      <option>Database Management</option>
+                  </select>
+                  <br><br>
+                  
+              <label>Preffered Learning Mode</label>
+              <br>
+              <input type="radio" id="onl" name="mode" value="online">
+              <label for="onl">Online</label>                       
+              <input type="radio" id="offl" name="mode" value="offline">
+              <label for="offl">Offline</label>
+              <br><br>
+
+              <h3>Skills You Already Know</h3>
+                  <input type="checkbox" id="s-html" name="skills" value="html">
+                  <label for="s-html">HTML</label>
+
+                  <input type="checkbox" id="s-css" name="skills" value="css">
+                  <label for="s-css">CSS</label>
+
+                  <input type="checkbox" id="s-js" name="skills" value="javascript">
+                  <label for="s-js">JavaScript</label>
+
+                  <input type="checkbox" id="s-py" name="skills" value="python">
+                  <label for="s-py">Python</label>
+                  
+                  <br><br>
+                  
+              <button type="submit">Register Course</button>
+              <button type="reset">Reset Form</button>
+
+          </form>
+
+      </section>
+      
+  </main>
+</body>
+</html>
